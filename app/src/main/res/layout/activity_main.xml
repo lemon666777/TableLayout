@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lemon.tablelayout.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:stretchColumns="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow>
+
+            <Button android:text="open..." />
+
+            <TextView />
+
+            <Button android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button android:text="save..." />
+
+            <TextView />
+
+            <Button android:text="Ctrl-S" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button android:text="save As..." />
+
+            <TextView />
+
+            <Button android:text="Ctrl-Shift-S" />
+        </TableRow>
+
+        <TextView
+            android:layout_height="3dp"
+            android:background="#000" />
+
+        <TableRow >
+
+            <Button android:text="X import..." />
+
+            <TextView />
+
+
+        </TableRow>
+        <TableRow >
+
+            <Button android:text="E Export..." />
+
+            <TextView />
+
+            <Button android:text="Ctrl-E" />
+        </TableRow>
+        <TextView
+            android:layout_height="3dp"
+            android:background="#000" />
+        <TableRow >
+
+            <Button android:text="quit" />
+
+            <TextView />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
